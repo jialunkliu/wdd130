@@ -1,0 +1,44 @@
+body
+{
+    background-color:purple;
+}
+
+h1
+{
+    color:whitesmoke;
+    background-color: limegreen;
+    padding: 15px 30px;
+    font-size: 3em;
+    border: 5px double orange;
+    margin: 5% 100px 10px 100px;
+    text-align: center;
+}
+
+h2
+{
+    color: pink;
+    background-color: brown;
+}
+
+p
+{
+    width: 700px;
+    margin: 15px auto;
+    color: aliceblue;
+    text-align: center;
+}
+
+.thinner
+{
+    width: 500px;
+    line-height: 1.5em;
+    text-align: center;
+    background-color: teal;
+}
+
+#myname
+{
+    font-size: 3em;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight: 400 ;
+}
