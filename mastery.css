@@ -1,0 +1,39 @@
+h1
+{
+    font-size: 2em;
+
+}
+
+.first
+{
+    margin: 20px 50px;
+}
+
+.hello
+{
+    background-color: blue;
+    font-size: 3em;
+    text-align: center;
+
+}
+
+img
+{
+    float: right;
+    padding: 15px;
+}
+
+.clear
+{
+    clear:both;
+}
+
+section
+{
+    background-color: lightgray;
+    margin: 50px;
+    border:solid 2px black;
+    color:purple;
+    border-radius: 5px;
+
+    }
