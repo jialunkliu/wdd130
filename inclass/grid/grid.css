@@ -1,0 +1,40 @@
+/* Rule No.1 for grid, only the direct children */
+body
+{
+    background-color: pink;
+    /* color:aliceblue; */
+}
+
+main
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Usually we use 1fr 1 fr but it didn't work, use auto auto instead. */
+    /* grid-template-columns: 1fr 3fr 1fr; */
+    /* the totla number would be 5, so it will split the screen to 5 pieces, and each columns will be 1/5, 3/5, 1/5 */
+    gap: 15px;
+    row-gap: 50px;
+    /* grid-template-rows: 350px 600px 600px; */
+}
+
+#success
+{
+    grid-column: 1/-1;
+    /* 1/3 is not a column, they are the lines between columns. */
+    /* and -1 means that it will always be the farest right line */
+    background-color: green;
+}
+
+#first
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+}
+
+#practice
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 4fr;
+    grid-column:1/-1;
+}
