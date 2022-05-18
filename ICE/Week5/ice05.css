@@ -1,0 +1,41 @@
+section{
+    background-color: grey;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 2fr;
+    place-items: center;
+}
+
+#circles
+{
+    grid-column: 1/-1;
+    width: 100%;
+    height: auto;
+}
+
+#graphic{
+    border: 10px solid rgb(58, 61, 61);
+    border-radius: 50%;
+    width:50%;
+    height: auto;
+}
+
+#desk{
+    width:50%;
+    height:auto;
+    border: 10px solid rgb(58, 61, 61);
+    border-radius: 50%;
+}
+
+#person{
+    width: 50%;
+    height: auto;
+    border: 10px solid rgb(58, 61, 61);
+    border-radius: 50%;
+}
