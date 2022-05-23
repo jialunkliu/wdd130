@@ -1,4 +1,4 @@
-/* Rule No.1 for grid, only the direct children */
+/* Rule No.1 for grid, only work for the direct children */
 body
 {
     background-color: pink;
