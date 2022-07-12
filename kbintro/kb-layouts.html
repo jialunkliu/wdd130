@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <title>KBIntro</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <span onclick="openNav()" class="material-icons menu">menu</span>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="/index.html">Home</a>
+                <a href="/ortho-kb.html">Ortholinear KB</a>
+                <a href="/kb-layouts.html">KB Layouts</a>
+                <a href="/site-plan.html">Site Plan</a>
+                <a href="#">Contact</a>
+                <img src="images/logo2.png" alt="logo">
+            </div>
+            <h3>Learn more about Keyboard Layouts!</h3>
+        </header>
+
+        <main>
+
+            <section class="intro_kb_layout">
+                <h1>Keyboard Layouts</h1>
+
+                <h2>Intro</h2>
+
+                <img src="/images/Qwerty.png" alt="qwerty">
+
+                <p>Okay, let's talk about Keyboard Layout. The layout on most keyboards is called "Qwerty". You can see this name from the top left corner of the keyboard, from left to right, first 6 keys. This is a very weird layout. While typing in English, your hands move all over the place. The reason that qwerty was designed was also because of typewriters. In the beginning, the typewriter's layout was designed in alphabetical order. But they soon learned that in the order, it was easy to get jammed. Christopher Latham Sholes invented the Qwerty layout for the typewriter back in 1866. The main purpose of this layout was to separate the commonly use letters from each other, so the typewriter won't easily jam. The price is to sacrifice some speed of typing.
+                </p>
+
+                <img src="/images/home-keys-position.png" alt="home-keys-position">
+
+                <p>Nowadays, Qwerty has become the "standard" of the keyboard. It is the default layout on your keyboard. This is probably the layout that you are using. If you felt the pain of typing, but do not want to spend money on a very expensive ergonomic design keyboard. Then learning a new layout might help you a little bit. It is free, some of them are even built into your computer. I am only going to introduce the two most popular ones, "Dvorak" and "Colemak".
+                </p>
+            </section>
+
+            <section class="dvorak">
+                <img src="/images/Dvorak.png" alt="Dvorak">
+
+                <h2>Dvorak</h2>
+                <p>In 1936, Dr. August Dvorak brought us a new keyboard layout, the "Dvorak" layout. This layout is focused on typing fast and efficiently. He put the most common use letters in the home row (which is the row where your fingers are situated, when you put your fingers on a keyboard). The problem is this layout is almost completely different than Qwerty. So if you want to use this, you will need to re-learn how to type again. Which will slow you down at the beginning and most of the shortcut keys won't work anymore.
+                </p>
+            </section>
+            
+            <section class="colemak">
+                <img src="/images/Colemak.png" alt="Colemak">
+
+                <h2>Colemak</h2>
+                <p>Colemak, a newer layout that came out in 2006 by Shai Colemak. This layout is also focusing on making you type fast and more efficiently. However, this one is a lot like Qwerty, only has 17 changes from qwerty. It keeps most of the shortcut keys and makes it easier to switch from qwerty to Colemak. I am using Colemak myself. It didn't take me long to switch from Qwerty to Colemak.
+                </p>
+            </section>
+
+            <section class="heatmap">
+                <img src="/images/heatmap_of_layout.png" alt="heatmap_of_layout">
+
+                <h2>Comparison</h2>
+                <p>The picture down below is the picture of the most used keys' heatmap. You can see that Qwerty is all over the place. Besides typing faster, putting the most used letters on the home row would also help your finger to feel less stressed. Because you don't need to move your finger all over the place anymore.
+                </p>
+            </section>
+        </main>
+
+        <script>
+            /* Set the width of the side navigation to 250px */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "300px";
+            }
+
+                /* Set the width of the side navigation to 0 */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        
+        <footer>
+            <h6>KBIntro &copy; 2022 - Chia-Lun Liu</h6>
+            <!-- <h3><a href="site-plan.html">Site Plan</a></h3> -->
+        </footer>
+    </div>    
+</body>
+</html>

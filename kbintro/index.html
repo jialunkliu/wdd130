@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <title>KBIntro</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <span onclick="openNav()" class="material-icons menu">menu</span>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="/index.html">Home</a>
+                <a href="/ortho-kb.html">Ortholinear KB</a>
+                <a href="/kb-layouts.html">KB Layouts</a>
+                <a href="/site-plan.html" target="_blank">Site Plan</a>
+                <a href="#">Contact</a>
+                <img src="images/logo2.png" alt="logo">
+            </div>
+            <h3>Learn more about Keyboards!</h3>
+        </header>
+
+        <div id="intro">
+            <img id="keychron" src="images/keychron_k7.jpg" alt="keychron_k7">
+            <p>
+                Have you ever wondered why the standard computer keyboards we use today are designed the way they are? Take another device that also comes with input keys -- "calculator" for example, all the keys on a calculator, are all straight colons and rows. Why only a computer keyboard is designed staggered?
+            </p>
+            <img id="calculator" src="images/TI-36 Pro_crop.jpg" width="355px" height="450px" alt="calculator">
+            <div class="background"></div>
+        </div>
+
+        <main>
+            <section class="typewriter">
+                <h2>Where is the stagger design came from?</h2>
+                <p id="p1">The design of the standard keyboard can trace back around 100 years ago, from the typewriter. The typewriter is built on a pure mechanism, there were no electronic components inside it. Your fingers are the power to make a typewriter function. Each key is connected to a lever. And the lever is connected to another lever called a type hammer, which has a reverse letter (like a little stamp) in the end. There is also a layer of a spool of inked cloth called a ribbon placed right before the paper. When you hit a key, the lever behind the key will bring the type hammer to hit the paper, with the ribbon the letter will be printed on the paper, like a stamp. This is just a simple explanation of how a typewriter work, if you want to know more, check this <a href="https://www.explainthatstuff.com/typewriter.html" target="_blank">link</a>.</p>
+
+                <img src="images/typewriter1.jpg" width="600px" height="600px alt="typewriter">
+
+                <p id="p2">Since a typewriter has so many levers behind its keyboard, there is no way that each colon can be lined up straight. In order to include all the levers, a staggering design was the best option. As time passed on, we had new technology, our keyboards don't have the mechanical levers and type hammer anymore, but this staggering design is kept and become the "standard" of computer keyboards.
+                </p>
+                <div class="background1"></div>
+            </section>
+
+            <section class="ortholinear">
+                <h2>Ortholinear</h2>
+                <p id="orthop">If you type a lot on a standard keyboard, you might found that your fingers hurt after you type for a while. In the perspective of ergonomic, our finger moves straight up and down more easily than moving diagonally. You might wonder, no one ever thought about this problem in the past 100 years? Well, there is! One of the solutions is the "ortholinear" keyboard.</p>
+
+                <div class="container">
+                    <img src="images/Planck_EZ1_copy.png" width="730px" height="275px" alt="Planck_EZ" class="planck">
+
+                    <div class="middle">
+                        <p class="zsa">Picture from <a href="https://www.zsa.io/planck/" target="_blank">ZSA website</a></p>
+                    </div>
+                </div>
+
+                <p id="orthop1">"Ortho" is a Greek word meaning straight or rigid. Combined with linear, means something has a lot of straight lines. The YouTuber, "Ben Vallack" gives a really good explanation on this Ortholinear and stagger design. check out the video on the left.</p>
+                <iframe width="730" height="410.63" src="https://www.youtube.com/embed/Ho_CFfdsmc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <p id="orthop2">It seems like the ortholinear keyboard is the way to go, but it usually cost around $100~$250 to get one. One reason is that most people don't have the issue of long typing. The less need on the market, the less company is willing to develop one. If you are interested in learning more about the Ortholinear keyboard, check out my <a href="/ortho-kb.html">Ortholinear KB page</a>, which I will introduce to you the ortholinear keyboard I have.
+                </p>
+
+                <p id="orthop3">Another way to help release the pain of your finger while typing, is changing your keyboard layout, which is the cheapest way to do it. If you are interested, check out my <a href="/kb-layouts.html">KB layout page</a>.</p>
+            </section>
+        </main>
+
+        <script>
+            /* Set the width of the side navigation to 250px */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "300px";
+            }
+
+                /* Set the width of the side navigation to 0 */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        
+        <footer>
+            <h6>KBIntro &copy; 2022 - Chia-Lun Liu</h6>
+            <!-- <h3><a href="site-plan.html">Site Plan</a></h3> -->
+        </footer>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Orbitron:wght@400;700&family=Source+Sans+Pro&display=swap');
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body{
+    background-color:#0f1218;
+    font-family: 'Source Sans Pro', 'TKdam Thmor Pro', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1, h2, h6{
+    font-family: "Orbitron";
+    color: #FCA311;
+}
+
+p{
+    color: #E5E5E5;
+}
+
+a{
+    color: #FCA311;
+}
+
+.material-icons.menu { 
+    font-size: 45px; 
+    color: #FCA311;
+    margin-left: 10px;
+
+}
+
+.material-icons.menu:hover{
+    color:#E5E5E5;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 65px 1fr;
+    background-color:#0f1218;
+    color: #FCA311;
+    align-items: center;
+    opacity: .9;
+    /* font-family: "Orbitron"; */
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #0f1218; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    font-size: 30px;
+  }
+
+  .sidenav img{
+    position: absolute;
+    bottom: 60px;
+    /* border-radius: 50%; */
+    width: 100%;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #FCA311;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+/* img{
+    width:100%;
+} */
+
+#intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 500px;
+    row-gap: 30px;
+    align-items: center;
+    justify-items: center;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.3em;
+    font-size: 24px;
+}
+
+#keychron{
+    grid-column: 1/-1;
+    width: 100%;
+    margin-top: 80px;
+    /* opacity: .7; */
+}
+
+#calculator{
+    grid-column: 2/-1;
+    grid-row: 2/-1;
+    width: auto;
+    border-radius: 15px;
+}
+
+#intro p{
+    grid-column: 1/2;
+    grid-row: 2/-1;
+    background-color: #FCA311;
+    color: #0f1218;
+    padding: 35px;
+    margin-left: 100px;
+    margin-right: -100px
+}
+
+.background{
+    grid-column: 1/-1;
+    grid-row: 2/-1;
+    background-color: black;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+
+.typewriter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 1.3em;
+    align-items: center;
+    justify-items: center;
+}
+
+.typewriter h2{
+    grid-column: 1/-1;
+    margin-top: 100px;
+    margin-left: 20px;
+    justify-self: start;
+    color: #FCA311;
+}
+
+.typewriter p{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: -55px;
+    padding: 40px;
+    background-color: #0f1218;
+    color: #E5E5E5;
+}
+
+#p1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-bottom: 0;
+}
+
+#p2{
+    grid-column:1/2;
+    grid-row: 3/4;
+    margin-top: 0;
+}
+.typewriter a{
+    color:#FCA311
+}
+
+.typewriter img{
+    grid-column: 2/-1;
+    grid-row: 2/4;
+    border-radius: 15px;
+}
+
+.background1{
+    grid-column: 1/-1;
+    grid-row: 2/4;
+    background-color: #0f1218;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.ortholinear{
+    color: #E5E5E5;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 820px 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.ortholinear h2{
+    grid-column: 1/-1;
+    justify-self: start;
+    margin-left: 20px;
+}
+
+.container{
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: end;
+    margin-right: 15px;
+}
+
+.planck{
+    border-radius: 15px;
+    opacity: 1;
+    display: block;
+    /* width: 100%; */
+    /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .planck {
+    opacity: 0.3;
+  }
+  
+.container:hover .middle {
+    opacity: 1;
+}
+
+.ortholinear iframe{
+    grid-row: 3/6;
+    grid-column: 1/2;
+    border-radius: 15px;
+    justify-self: end;
+    margin-right: 15px;
+}
+
+#orthop, #orthop1, #orthop2, #orthop3{
+    padding: 0 85px;
+    margin-right: 30px;
+}
+
+#orthop{
+    grid-column: 2/3;
+}
+
+#orthop1{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-bottom: -30px;
+}
+
+#orthop3{
+    margin-top: -30px;
+}
+
+footer{
+    display: grid;
+    justify-items: center;
+}
+
+
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

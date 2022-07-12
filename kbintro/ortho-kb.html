@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <title>KBIntro</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <span onclick="openNav()" class="material-icons menu">menu</span>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="/index.html">Home</a>
+                <a href="/ortho-kb.html">Ortholinear KB</a>
+                <a href="/kb-layouts.html">KB Layouts</a>
+                <a href="/site-plan.html">Site Plan</a>
+                <a href="#">Contact</a>
+                <img src="images/logo2.png" alt="logo">
+            </div>
+            <h3>Learn more about Ortholinear Keyboards!</h3>
+        </header>
+
+        <main>
+            <section class="intro_ortho">
+                <h1>Ortholinear Keyboard</h1>
+
+                <img src="/images/sofle_v1.jpg" alt="sofle_v1">
+
+                <p>If you are thinking to buy a ready-to-use ortholinear keyboard, there are not many options on the market. The main way to get an ortholinear keyboard is to build it yourselves! The only company I know that sells the complete product is the ZSA, they have three products, Planck EZ, Ergodox EZ, and the Moonlander.
+                </p>
+
+                <img src="/images/keyboard_kit1.jpg" alt="keyboard_kit">
+
+                <p>There is a lot of ortholinear keyboard kit online you could find, pick one that you are interested in! The cheapest way is buying the DIY kit, in which you need to build it from soldering components to PCBs and flesh the software to the microcontroller. Most websites that sell DIY keyboard kits have a building guide for you, follow them step by step, and you should be able to build your keyboard without any issue. If you think that you can't do it, then there are also some keyboard that comes with a pre-build PCB, the only thing you need to do is find switches and keycaps and there you go! But it might cost more.</p>
+
+                <p>I have three ortholinear keyboards. They are a little bit more advance than just the ortholinear style, they are also split. My keyboards are: Ergodox, Sofle V1, and the Dactyl-ManuForm</p>
+            </section>
+
+            <section class="ergodox">
+                <img src="/images/ergodox-pcb.jpg" alt="ergodox-pcb">
+                <img src="/images/ergodox_switches.jpg" alt="ergodox_switches">
+                <img src="/images/ergodox.jpg" alt="ergodox">
+
+                <h2>Ergodox</h2>
+                <p>Ergodox is a DIY keyboard project originally developed by Dox(Dominic Beauchamp). This is my first DIY keyboard, it's not cheap, it cost me around $200. This is the classic ortholinear and split keyboard. I enjoyed this keyboard a lot, but the problem is it is too big, I can't carry it around. It is hot-swappable, meaning that I can switch keys if I want.
+                </p>
+            </section>
+
+            <section class="sofle">
+                <img src="/images/sofle_build1.jpg" alt="sofle_build1">
+                <img src="/images/sofle_build2.jpg" alt="sofle_build2">
+                <img src="/images/sofle_v1.jpg" alt="sofle_v1">
+
+                <h2>Sofle v1</h2>
+                <p>Sofle v1 is a very cool keyboard, it has a similar design to Ergodox, but it is smaller, easier to carry around, and it has two OLED screens and two knobs, this is the one that I am currently using. It also supports *low-profile switches!
+                </p>
+            </section>
+
+            <section class="dactly">
+                <img src="/images/dactly_build1.jpg" alt="dactly_build1">
+                <img src="/images/dactly_build2.jpg" alt="dactly_build2">
+                <img src="/images/dactly.jpg" alt="dactly">
+
+                <h2>Dactyl-ManuForm</h2>
+                <p>The third one is Dactyl-ManuForm, this one is designed heavily on ergonomics. It is very similar to Ergodox but curved. I am currently building it. This one is harder to build. Because of the curving design, no PCB can fit this design. To connect each row and column, we need to wire them up all by hand, which required advanced knowledge of the keyboard. Not recommended for newbies. This one is also the most expensive to build. I spent more than $300 on it.</p>
+            </section>
+
+        </main>
+
+        <script>
+            /* Set the width of the side navigation to 250px */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "300px";
+            }
+
+                /* Set the width of the side navigation to 0 */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        
+        <footer>
+            <h6>KBIntro &copy; 2022 - Chia-Lun Liu</h6>
+            <!-- <h3><a href="site-plan.html">Site Plan</a></h3> -->
+        </footer>
+    </div>    
+</body>
+</html>
