@@ -256,6 +256,9 @@ header{
 }
 
 .ortholinear iframe{
+    border: none;
+    width: 730px;
+    height: 410.63px;
     grid-row: 3/6;
     grid-column: 1/2;
     border-radius: 15px;
