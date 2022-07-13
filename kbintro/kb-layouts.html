@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>KBIntro</title>
 </head>
 <body>
@@ -29,40 +29,44 @@
             <section class="intro_kb_layout">
                 <h1>Keyboard Layouts</h1>
 
-                <h2>Intro</h2>
-
                 <img src="/images/Qwerty.png" alt="qwerty">
+                <span class="material-icons image">image</span>
+                <a href="https://commons.wikimedia.org/wiki/File:KB_United_States.svg" target="_blank">Qwerty Layout</a>
 
                 <p>Okay, let's talk about Keyboard Layout. The layout on most keyboards is called "Qwerty". You can see this name from the top left corner of the keyboard, from left to right, first 6 keys. This is a very weird layout. While typing in English, your hands move all over the place. The reason that qwerty was designed was also because of typewriters. In the beginning, the typewriter's layout was designed in alphabetical order. But they soon learned that in the order, it was easy to get jammed. Christopher Latham Sholes invented the Qwerty layout for the typewriter back in 1866. The main purpose of this layout was to separate the commonly use letters from each other, so the typewriter won't easily jam. The price is to sacrifice some speed of typing.
                 </p>
-
-                <img src="/images/home-keys-position.png" alt="home-keys-position">
 
                 <p>Nowadays, Qwerty has become the "standard" of the keyboard. It is the default layout on your keyboard. This is probably the layout that you are using. If you felt the pain of typing, but do not want to spend money on a very expensive ergonomic design keyboard. Then learning a new layout might help you a little bit. It is free, some of them are even built into your computer. I am only going to introduce the two most popular ones, "Dvorak" and "Colemak".
                 </p>
             </section>
 
             <section class="dvorak">
-                <img src="/images/Dvorak.png" alt="Dvorak">
-
                 <h2>Dvorak</h2>
-                <p>In 1936, Dr. August Dvorak brought us a new keyboard layout, the "Dvorak" layout. This layout is focused on typing fast and efficiently. He put the most common use letters in the home row (which is the row where your fingers are situated, when you put your fingers on a keyboard). The problem is this layout is almost completely different than Qwerty. So if you want to use this, you will need to re-learn how to type again. Which will slow you down at the beginning and most of the shortcut keys won't work anymore.
+                <div class="dvorak_pic_link">
+                    <img src="/images/Dvorak.png" alt="Dvorak" class="dvorak_pic">
+                    <span class="material-icons image">image</span>
+                    <a href="https://commons.wikimedia.org/wiki/File:KB_United_States_Dvorak.svg" target="_blank">Dvoroak Layout</a>
+                </div>
+                <p>In 1936, Dr. August Dvorak brought us a new keyboard layout, the "Dvorak" layout. This layout is focused on typing fast and efficiently. He put the most common use letters in the <span id ="homerow">home row</span> (which is the row where your fingers are situated, when you put your fingers on a keyboard). The problem is this layout is almost completely different than Qwerty. So if you want to use this, you will need to re-learn how to type again. Which will slow you down at the beginning and most of the shortcut keys won't work anymore. 
+                    <img src="/images/home-keys-position.png" alt="home-keys-position" class="homerow">
                 </p>
             </section>
             
             <section class="colemak">
-                <img src="/images/Colemak.png" alt="Colemak">
-
                 <h2>Colemak</h2>
+                <img src="/images/Colemak.png" alt="Colemak">
+                <span class="material-icons image">image</span>
+                <a href="https://commons.wikimedia.org/wiki/File:KB_US-Colemak.svg" target="_blank">Colemak Layout</a>
                 <p>Colemak, a newer layout that came out in 2006 by Shai Colemak. This layout is also focusing on making you type fast and more efficiently. However, this one is a lot like Qwerty, only has 17 changes from qwerty. It keeps most of the shortcut keys and makes it easier to switch from qwerty to Colemak. I am using Colemak myself. It didn't take me long to switch from Qwerty to Colemak.
                 </p>
             </section>
 
             <section class="heatmap">
-                <img src="/images/heatmap_of_layout.png" alt="heatmap_of_layout">
-
                 <h2>Comparison</h2>
-                <p>The picture down below is the picture of the most used keys' heatmap. You can see that Qwerty is all over the place. Besides typing faster, putting the most used letters on the home row would also help your finger to feel less stressed. Because you don't need to move your finger all over the place anymore.
+                <img src="/images/heatmap_of_layout.png" alt="heatmap_of_layout">
+                <span class="material-icons image" id="heatmap_icon">image</span>
+                <a href="https://www.reddit.com/r/Colemak/comments/qslro8/10000_simple_wikipedia_sentences_heatmap_qwerty/" target="_blank">Heatmap of Layouts</a>
+                <p>The picture is the most used keys' heatmap. You can see that Qwerty is all over the place. Besides typing faster, putting the most used letters on the home row would also help your finger to feel less stress. Because you don't need to move your finger all over the place anymore.
                 </p>
             </section>
         </main>
